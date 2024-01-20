@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+
+    background-image: url("assect/img/IN-en-20231218-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 100vh;
+    position: relative;
+    background-position: center -270px;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    background-size: max(1200px, 123vw);
+
+
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 76vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+
+}
+.up{
+    position: relative;
+    top :16px;
+}
+
+.subrata {
+    font-family: 'martal Sens', sans-serif;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+    gap: 22px;
+    top: -32px;
+}
+
+.fast {
+    font-size: 43px;
+    font-weight: 900;
+}
+.fast1 {
+    
+    font-size: 47px;
+    font-weight: 900;
+}
+.sendd {
+    
+    font-size: 41px;
+    font-weight: 900;
+}
+.enjoy{
+     color: white;
+}
+.your{
+    color: white;
+}
+.watch{
+    font-weight: 400;
+    font-size: 21px;
+    color: white;
+    position: relative;
+    top: 15px;
+}
+.sum{
+    position: relative;
+    top: 4px;
+}
+.gap{
+   position: relative;
+   left: 180px;
+   top: 180px;
+ 
+}
+.gap1{
+    position: relative;
+    left: 750px;
+    top: 230px;
+  
+ }
+ .gap2{
+    position: relative;
+    left: 800px;
+    top: 200px;
+    
+ }
+ .gap5{
+    position: relative;
+    left: 720px;
+    top: 160px;
+    
+ }
+
+
+.sec {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.third {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.input {
+    display: inline-block;
+    position: relative;
+    right: -75px;
+    
+
+}
+.input1 {
+    display: inline-block;
+    position: relative;
+    right: -75px;
+    top: 10px;
+    size: 50px;
+    
+
+}
+
+.boy {
+    padding: 20px 120px;
+    position: relative;
+    right: 72px;
+    border-radius: 4px;
+    border: 0.5px solid rgb(255, 255, 255);
+    background-color: rgba(23,23,23,0.2);
+    color: white;
+
+    /* opacity: 0.5; */
+    
+}   
+.boy1 {
+    padding: 14px 15px;
+    width: 300px;
+    position: relative;
+    right: 72px;
+    border-radius: 4px;
+    border: 0.5px solid rgb(255, 255, 255);
+    background-color: rgba(23,23,23,0.2);
+    color: white;
+    font-size: 20px;
+
+    /* opacity: 0.5; */
+    
+}
+.button1 {
+    padding: 14px 40px;
+    position: relative;
+    top: 4px;
+    right: 72px;
+    border-radius: 4px;
+    border: 0.5px solid rgb(0, 0, 0);
+    background-color: red;
+
+
+
+}
+.button12 {
+    padding: 11px 30px;
+    position: relative;
+    top: 2px;
+    right: 72px;
+    border-radius: 4px;
+    border: 0.5px solid rgb(0, 0, 0);
+    background-color: red;
+
+
+
+}
+
+.size {
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+
+    right: 18px;
+    display: inline-block;
+    margin: auto;
+
+}
+.upper{
+    padding: 8px 0px;
+    border-radius: 4px;
+    
+    background-color: rgba(23,23,23,0.2);
+    
+
+    /* opacity: 0.5; */
+    border: 1px solid rgba(255, 255, 255);
+    overflow: auto;
+  
+   position: relative;
+   z-index: 10;
+   
+}
+.upper1{
+    padding: 8px 35px;
+    margin: 12px 166px;
+    border-radius: 4px;
+    
+    background-color: rgba(23,23,23,0.2);
+    
+
+    /* opacity: 0.5; */
+    border: 1px solid rgba(255, 255, 255);
+    overflow: auto;
+  
+   position: relative;
+   z-index: 10;
+   
+}
+.eng{
+    font-size: 15px;
+    font-weight: 400px;
+    color: white;
+    position: relative;
+
+    right: 18px;
+    display: inline-block;
+    margin: auto;
+
+}
+.eng1{
+    font-size: 15px;
+    font-weight: 400px;
+    color: white;
+    position: relative;
+
+    right: 18px;
+    display: inline-block;
+    margin: auto;
+
+}
+.size img{
+    position: relative;
+    top: 5px;
+    right: -12px;
+    
+}
+
+
+.input ::placeholder {
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: 105px;
+}
+.lower{
+    position: relative;
+    right: -20px;
+    padding: 8px 8px;
+    border-radius: 4px;
+    width: 85px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 15px;
+}
+.subrata2{
+    position: relative;
+    top:-61px;
+    border-top: 7px solid rgb(47, 46, 46);
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+   
+} 
+.subrata3{
+    position: relative;
+    top:-61px;
+    border-top: 7px solid rgb(47, 46, 46);
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+   
+} 
+.subrata5{
+    position: relative;
+    top:-61px;
+    border-top: 7px solid rgb(47, 46, 46);
+    border-bottom: 7px solid rgb(47, 46, 46);
+    width: 100vw;
+    height: 120vh;
+    background-color: black;
+   
+}
+.ask{
+    color: white;
+    font-size: 41px;
+    font-weight: 900;
+    position: relative;
+    left: 370px;
+    margin-top: 45px;
+}
+
+.girl{
+    width: 31vw;
+}
+.tv1{
+    position: relative;
+    z-index: 10;
+    left: 770px;
+    top: -40px;
+    width: 35vw;
+    
+}
+.girl1{
+    position: relative;
+    z-index: 10;
+    left: 175px;
+    top: -110px;
+    width: 38vw;
+}
+.video2{
+    position: absolute;
+   
+    top: 160px;
+
+    right: 205px;
+    width: 26vw;
+}
+.video3{
+    position: absolute;
+   
+    top: 120px;
+
+    right: 230px;
+    width: 22vw;
+    height: 27vh;
+}
+.boxx{
+    color: white;
+    background-color: black;
+    width: 280px;
+    height: 90px;
+    border: 1px solid rgb(150, 146, 146);
+    border-radius: 8px;
+    position: relative;
+    z-index: 10;
+    top: -240px;
+    left: 295px;
+   
+}
+
+.boxx img{
+    position: relative;
+    top: 9px;
+    left:9px;
+    width: 50px;
+    height: 70px;
+}
+.boxw{
+    color: white;
+    position: relative;
+    top: -45px;
+    left:75px;
+}
+.dw{
+    font-size: 12px;
+    color: blue;
+}
+.hellow{
+    width: 80vw;
+    height: 12vh;
+    /* border: 2px solid white; */
+    background-color: rgb(50, 48, 48);
+    margin: auto;
+    position: relative;
+    top: 20px;
+    margin-top: 10px;
+    z-index: 10;
+}
+.enter{
+    color: white;
+    
+}
+.get{
+    position: relative;
+    top: 70px;
+    left: 350px;
+}
+.navbar{
+    height: 300px;
+}
+.navbar2{
+    color: rgb(143, 143, 143);
+    font-size: 14px;
+}
+.question{
+    padding: 15px 150px;
+    margin: -5px 15px;
+
+}
+.question hr{
+    width: 120px;
+    position: relative;
+    left: 100px;
+}
+.page{
+    padding: 15px 150px;
+    margin: -5px 15px;
+}
+
+.page a{
+    color: rgb(143, 143, 143);
+    
+}
+li{
+    overflow: auto;
+}
+.page2{
+    position: relative;
+    left: 275px;
+    bottom:260px;
+}
+.page3{
+    position: relative;
+    left: 525px;
+    bottom:425px;
+}
+.page4{
+    position: relative;
+    left: 800px;
+    bottom:590px;
+}
+.hellow a{
+    text-decoration: none;
+   
+}
+.net{
+    color: white;
+    font-size: 22px;
+    padding:15px 20px;
+   
+    
+}
+.this1{
+    position: relative;
+    left: 970px;
+    top: 8px;
+    font-size: 40px;
+}
+.this2{
+    position: relative;
+    left: 839px;
+    top: 8px;
+    font-size: 40px;
+}
+.this3{
+    position: relative;
+    left: 925px;
+    top: 8px;
+    font-size: 40px;
+}
+.this4{
+    position: relative;
+    left: 958px;
+    top: 8px;
+    font-size: 40px;
+}
+.this5{
+    position: relative;
+    left: 839px;
+    top: 8px;
+    font-size: 40px;
+}
+.this6{
+    position: relative;
+    left: 890px;
+    top: 8px;
+    font-size: 40px;
+}
